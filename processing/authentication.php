@@ -46,6 +46,7 @@ switch ($source) {
         $users = $userStatement->fetchAll();
 
         if (count($users) != 0) {
+            
             header('Location: ../pages/register.php?email=error');
             exit();
         } else if($password != $confim_password){

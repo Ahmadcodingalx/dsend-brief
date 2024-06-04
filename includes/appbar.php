@@ -3,11 +3,11 @@
         <tbody>
             <tr>
                 <td>
-                    <a href="/brief" class="logo-brand">DSend</a>
+                    <a href="/d-send" class="logo-brand">DSend</a>
                 </td>
                 <td>
                     <ul>
-                        <li><a href="/brief/processing/logout.php">
+                        <li><a href="/d-send/processing/logout.php">
                             Se déconnecter
                         </a>
                     </li>

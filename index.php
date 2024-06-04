@@ -17,7 +17,7 @@
     <?php require_once("./includes/menubar.php") ?>
 
     <div class="auth-cover-form">
-        <form action="/brief/processing/authentication.php" method="post">
+        <form action="/d-send/processing/authentication.php" method="post">
 
         <h1 class="text-center">Se connecter</h1>
 
@@ -44,7 +44,7 @@
         </button>
 
         <p>
-            Pas encore de comte, <a href="/brief/pages/register.php">inscrivez-vous.</a>
+            Pas encore de comte, <a href="/d-send/pages/register.php">inscrivez-vous.</a>
         </p>
         </form>
     </div>

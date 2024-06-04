@@ -82,7 +82,7 @@ require_once('../config/database.php');
                 console.log(messageText)
 
                 $.ajax({
-                    url: "/brief/processing/texting.php",
+                    url: "/d-send/processing/texting.php",
                     data: {
                         id: $('#user_id').val(),
                         text: messageText
@@ -98,7 +98,7 @@ require_once('../config/database.php');
         setInterval(() => {
             window.scrollTo(0, window.innerHeight)
             $.ajax({
-                url:"/brief/processing/message.php",
+                url:"/d-send/processing/message.php",
                 data: {
                     id: $('#user_id').val()
                 },

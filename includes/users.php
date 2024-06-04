@@ -15,7 +15,7 @@ $users = $userStatement->fetchAll();
         <?php foreach ($users as $user){ 
             ?>
             <li>
-                <a href="/brief/pages/discussions.php?id=<?=$user['id'] ?>">
+                <a href="/d-send/pages/discussions.php?id=<?=$user['id'] ?>">
                     <table whidth="100%">
                         <tbody>
                             <tr>

@@ -17,7 +17,7 @@
     <?php require_once("../includes/menubar.php") ?>
     
     <div class="auth-cover-form">
-        <form action="/brief/processing/authentication.php" method="post">
+        <form action="/d-send/processing/authentication.php" method="post">
 
             <h1 class="text-center">S'inscrire</h1>
 
