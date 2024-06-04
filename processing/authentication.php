@@ -44,6 +44,7 @@ switch ($source) {
             'email' => $email
         ]);
         $users = $userStatement->fetchAll();
+        
 
         if (count($users) != 0) {
             
