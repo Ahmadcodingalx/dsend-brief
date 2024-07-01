@@ -3,17 +3,17 @@
         <tbody>
             <tr>
                 <td>
-                    <a href="/d-send" class="logo-brand"></a>
+                    <a href="../" class="logo-brand"></a>
                 </td>
                 <td>
                     <ul>
                         <li>
-                            <a href="/d-send">
+                            <a href="../">
                                 Se connecter
                             </a>
                         </li>
                         <li>
-                            <a href="/d-send/pages/register.php">
+                            <a href="./pages/register.php">
                                 S'inscrire
                             </a>
                         </li>
